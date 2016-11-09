@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "6.9.1"
+before_script:
+  # ref: https://github.com/travis-ci/travis-ci/issues/6720#issuecomment-259261723
+  - npm install -g yarn
+  - yarn install
