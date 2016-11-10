@@ -11,12 +11,15 @@ import Navbar from '../components/Navbar';
  * component to make the Redux store available to the rest of the app.
  */
 class App extends Component {
+  componentWillMount() {
+    // I need a filler;
+  }
   render() {
     // we can use ES6's object destructuring to effectively 'unpack' our props
     const { counter, actions, children } = this.props;
     return (
       <div className="main-app-container">
-        <Navbar Link={ Link } />
+        <Navbar Link={Link} />
         <div>
           {/* Here's a trick: we pass those props into the children by mapping
             and cloning the element, followed by passing props in. Notice that

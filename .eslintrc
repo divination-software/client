@@ -1,10 +1,11 @@
  {
   "extends": "airbnb",
   "rules": {
-    "react/jsx-filename-extension": ['off', { extensions: ['.jsx'] }]
+    "react/jsx-filename-extension": ['off', { extensions: ['.jsx'] }],
+    'react/forbid-prop-types': ['off', { forbid: ['any', 'array', 'object'] }],
   },
   "env": {
-    "document": true,
+    "browser": true,
     "jest": true
   },
   "plugins": [
