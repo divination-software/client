@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - "6.9.1"
-before_script:
-  # ref: https://github.com/travis-ci/travis-ci/issues/6720#issuecomment-259261723
-  - npm install -g yarn
-  - yarn install
+- 6.9.1
+notifications:
+  slack:
+    secure: kix41ktfKkqiAHEBknCw8NkwG7St8eW8O6Onne355/ayK5i8jA1kWSdKGp98Fq94q7LhEQtJb3FxD23/p0+6bONLT6Rviae6OJBcofbE9/Wxt8YPRLW93hKkIJhaq0EgX/5yO6t4MB63qL27VUJzgEjsha0C4wYkvu7EExnlH2Xgdbl4BrGFwdusIQCwLvdwcqtJN6Vj5mP+RgdAZlHOirRLUrm1J3Ba7Lw82+ty50sxTfvXOQAKcoiU6I2Kylx4rAj0ufIk6wNH/cbMKL8+yseHilA1dBYeOIgKhTDVHawRYu3SALXklz2yGFnk33RZVcwkm8QFZ9mLctIfnhpRj87LOX7MeuT86kiAHtYTwY+grwGSd38OT6VRi+TemfLgKaCTKBXBOijEEanXND8zN7mPW5iHqHBZTJjxIWdLA4t4ElqCzDUJexmfXcoitCBZtOF7i8mBytScGLT+TuGzDpOUzIYxTrLy6svKsA3GhPPsAGlXyndP/ooWbGixZxEt0HC0nEqq6/RTiAmH0oG7iitz68qvx6Gf43R6pO+dnt6NtMmMeC5FGuXrHSC94yYMjbpL/3egw2rqtJx6UBcJPh1DypDzEMTTkeBQR4C7diZx8WOxEHr7+Tk7cBX/INIH+luKu/5zRjcAhygOTuBLSqXUGw9h3t3jnLAfx+Vz2RY=
